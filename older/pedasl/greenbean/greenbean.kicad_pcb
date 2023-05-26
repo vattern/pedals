@@ -178,7 +178,7 @@
       (net 4 "A") (pinfunction "D") (pintype "passive") (tstamp 177e3fce-a7c9-4e17-873c-c74ae8150e80))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 1 0.5))
       (rotate (xyz 0 0 0))
     )
   )
@@ -775,10 +775,10 @@
     (pad "4" thru_hole circle (at 16.23 0 90) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 740f84e2-e151-41cd-bb30-0f1d9414704a))
     (pad "5" thru_hole circle (at 16.23 12.7 90) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 1647f9f4-9802-4b2d-a1ba-66a81ab036b8))
     (pad "6" thru_hole circle (at 16.23 6.35 90) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 4f2ba60c-f924-46ab-83d3-36f0acb44652))
-    (model "Connectors.3dshapes/NMJ6HCD2.wrl"
-      (offset (xyz 8.127999878 4.317999935 0))
-      (scale (xyz 0.39 0.39 0.39))
-      (rotate (xyz -90 0 180))
+    (model ":PEDAL_3D_MODELS:NMJ6HCD2.step"
+      (offset (xyz 8.5 -6.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -18318,9 +18318,9 @@
       (net 36 "/O") (tstamp 4c8f644f-5aae-41bd-ad37-538926313662))
     (pad "9" thru_hole oval (at 5.3 -4.7 180) (size 2.6 1.5) (drill oval 2.1 1) (layers "*.Cu" "*.Mask" "F.SilkS")
       (net 34 "Net-(R3-Pad2)") (tstamp c4475485-3b6d-4186-8b3c-d967460f738e))
-    (model "${KISYS3DMOD}/3PDT.wrl"
+    (model "${PEDAL_3D_MODELS}/3PDT(1).stp"
       (offset (xyz -9.2 -6.5 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -18558,7 +18558,7 @@
       (net 20 "Net-(Q1-D)") (pinfunction "D") (pintype "passive") (tstamp 2d1b86fe-f0dd-4b15-8118-cfadd784e0ea))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 1 0.5))
       (rotate (xyz 0 0 0))
     )
   )
@@ -19041,10 +19041,10 @@
       (net 6 "B") (pinfunction "B") (pintype "passive") (tstamp 38859d8a-9986-4389-90e0-a5142ab35a9f))
     (pad "3" thru_hole oval (at 4.45 0 270) (size 3.2 5) (drill oval 1 2.3) (layers "*.Cu")
       (net 20 "Net-(Q1-D)") (pinfunction "C") (pintype "passive") (tstamp 6b4c9d66-7b69-41c0-8b72-fa42229dcfdc))
-    (model "${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step"
-      (offset (xyz -6.5 4 0))
+    (model ":PEDAL_3D_MODELS:toggle-switch-01-v1.step"
+      (offset (xyz 0 0 8.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -19467,11 +19467,11 @@
     (descr "Resistor, Axial,  RM 7.62mm, 1/3W,")
     (tags "Resistor Axial RM 7.62mm 1/3W R3")
     (attr through_hole)
-    (fp_text reference "R2" (at -0.38 -2.25 270) (layer "F.SilkS")
+    (fp_text reference "R2" (at -0.38 -2.25 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 077a7ccd-b54b-4021-883d-f6df2d3be3b0)
     )
-    (fp_text value "1M" (at 2.62 -2.25 270) (layer "F.SilkS")
+    (fp_text value "1M" (at 2.62 -2.25 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 68a952b0-f98a-4e2e-906d-e041c7f46f9e)
     )
@@ -19495,9 +19495,9 @@
       (net 36 "/O") (tstamp f0015343-5c84-4464-9530-afaf5ee799cb))
     (pad "2" thru_hole circle (at 7.62 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers "*.Cu" "*.SilkS" "*.Mask")
       (net 27 "GND") (tstamp 7b04d26b-8cde-4e91-8d29-d8afc92a84c4))
-    (model "${KISYS3DMOD}/Resistors_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -19699,9 +19699,9 @@
       (net 31 "Net-(D1-Pad1)") (tstamp 24c94d5a-f031-4c51-8bfb-daf1da5c10a7))
     (pad "2" thru_hole circle (at 7.62 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers "*.Cu" "*.SilkS" "*.Mask")
       (net 34 "Net-(R3-Pad2)") (tstamp 51192c82-1228-4e3e-9be3-93d716d8119c))
-    (model "${KISYS3DMOD}/Resistors_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -19826,7 +19826,7 @@
     (descr "Resistor, Axial,  RM 7.62mm, 1/3W,")
     (tags "Resistor Axial RM 7.62mm 1/3W R3")
     (attr through_hole)
-    (fp_text reference "R1" (at 2.15 2.15 270) (layer "F.SilkS")
+    (fp_text reference "R1" (at 2.15 2.15 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b9cc8e02-6d4c-4735-a805-730dd0c635ce)
     )
@@ -19854,9 +19854,9 @@
       (net 37 "/I") (tstamp 8f901483-81c1-4abf-9708-214afe5381bd))
     (pad "2" thru_hole circle (at 7.62 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers "*.Cu" "*.SilkS" "*.Mask")
       (net 27 "GND") (tstamp 7a401dee-26b4-4fdb-9ede-9bf319ce1b48))
-    (model "${KISYS3DMOD}/Resistors_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -19978,7 +19978,7 @@
       (net 19 "VC") (pinfunction "C") (pintype "passive") (tstamp 28284558-821e-42bc-9f93-285b787e4011))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92L.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 1 0.5))
       (rotate (xyz 0 0 0))
     )
   )
@@ -20413,7 +20413,7 @@
     (descr "NMJ6HCD2, TRS 1/4\\\\")
     (tags "NMJ6HCD2 TRS stereo jack connector")
     (attr through_hole)
-    (fp_text reference "J2" (at 16.28 19 270) (layer "F.SilkS") hide
+    (fp_text reference "J2" (at 16.28 19 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7677642c-0fb6-4337-9027-47d24e06c7a3)
     )
@@ -20470,10 +20470,10 @@
     (pad "5" thru_hole circle (at 16.23 12.7 270) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask")
       (net 27 "GND") (tstamp 3d8bb6ba-ad40-4f08-b20d-4c940d398c28))
     (pad "6" thru_hole circle (at 16.23 6.35 270) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp d587265a-0aa2-4e63-a22b-69f5a7195f78))
-    (model "Connectors.3dshapes/NMJ6HCD2.wrl"
-      (offset (xyz 8.127999878 4.317999935 0))
-      (scale (xyz 0.39 0.39 0.39))
-      (rotate (xyz -90 0 180))
+    (model ":PEDAL_3D_MODELS:NMJ6HCD2.step"
+      (offset (xyz 8 -6.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -20586,7 +20586,7 @@
       (net 19 "VC") (pinfunction "C") (pintype "passive") (tstamp e3013288-33cb-4fc7-9f02-d90edce99985))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92L.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 1 0.5))
       (rotate (xyz 0 0 0))
     )
   )
@@ -20938,7 +20938,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3bf553e1-3f09-4720-973d-13d993193489)
     )
-    (fp_text user "${REFERENCE}" (at 1.25 0 270) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 1.25 0 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb4f04ee-d1bb-47e7-9eae-9a1efd36db91)
     )
@@ -21270,9 +21270,9 @@
       (net 16 "+9V") (tstamp adc9c7a8-f37f-4fff-a12d-98a21bcded8c))
     (pad "2" thru_hole circle (at 2.5 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 27 "GND") (tstamp d53670db-dc2e-488c-8884-69b4598fc08e))
-    (model "${KISYS3DMOD}/Capacitors_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
