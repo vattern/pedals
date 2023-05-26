@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Pedal-Components")(type "KiCad")(uri "/home/thys/PEDALS/pedasl/Pedal-Components.pretty")(options "")(descr ""))
+)

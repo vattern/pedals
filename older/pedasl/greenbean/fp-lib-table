@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Hammond")(type "KiCad")(uri "/home/thys/pedasl/1590B")(options "")(descr ""))
+)

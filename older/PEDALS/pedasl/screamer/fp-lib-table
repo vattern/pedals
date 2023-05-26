@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "screamer-backups")(type "KiCad")(uri "${KIPRJMOD}/screamer-backups")(options "")(descr ""))
+)
