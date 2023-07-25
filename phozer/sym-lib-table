@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1590B-rescue")(type "KiCad")(uri "${KIPRJMOD}/1590B-rescue.kicad_sym")(options "")(descr ""))
+)
